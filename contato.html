@@ -55,34 +55,84 @@
             para o próximo sábado."></textarea>
 
             <fieldset>
-                <legend>qual horario você prefere ser atendido</legend>
-                <section>
+                <legend>Em qual horário prefere seu atendimento?</legend>
+                <select>
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
-                </section>
-
-
+                </select>
             </fieldset>
-            <legend>como prefere o nosso contato</legend>
-            <label for="radio-email" >
-                 <input type="radio" name="contato" value="email" id="radio-email">
-                 Email
-            </label>
-            
-            <label for="radio-telefone">
-                <input type="radio" name="contato" value="telefone" id="radio-telefone">
-                telefone
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="radio-email">
+                    Email
+                </label>
+
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone
+                </label>
+
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                    Whatsapp
+                </label>
+            </fieldset>
+            <label class="checkbox"> Gostaria de receber nossas novidades por email?
+            <input type="checkbox" checked>
             </label>
 
-            <label for="radio whatsapp">
-                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
-                whatsapp
-            </label>
+            <input clas="enviar" type="submit" value="Enviar">
+        
         </form>
 
-
+        <table>
+            <thead>
+                <th>Dias</th>
+                <th>horários</th>
+            </thead>
+        
+        <tbody>
+            <tr>
+                <td>Terça á Sexta</td>
+                <td>Das 8h ás 20h</td>
+            </tr>
+            <tr>
+                <td>Sábado e Domingos</td>
+                <td>Das 9h ás 18h</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Estamos te esperando!</td>
+            </tr>
+        </tfoot>
+    </table>
     </main>
+
+    <footer>
+        <div class="logo-footer">
+            <img src="logo-branco.png" alt="logo barbearia alura na cor branca" 
+            width="45" height="45">
+        </div>
+        
+        <div class="redes">
+            <a href="https://github.com/professorjulianosilva" title="professorjulianosilva"
+             target="_blank">
+                <img src="github-logo.png" alt="logo do github" width="45" height="45">
+            </a>
+        
+            <a href="https://www.instagram.com/usuario" title="usuario" target="_blank">
+                <img src="instagram-logo.png" alt="logo do instagram" width="45" 
+                height="45">
+            </a>
+        </div>
+        
+        <div class="copyright"> Desenvolvido por Juliano Silva</div>
+        <div class="copyright">&copy; Copyright Barbearia Alura</div>
+        </footer>
 
 </body>
 </html>

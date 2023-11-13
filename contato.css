@@ -26,9 +26,50 @@ form label, form legend{
 
 textarea{
     padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 legend{
     padding: 15px 0 5px;
+}
+
+select{
+   width: 40%;
+   text-align: center;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: cyan;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.enviar:hover{
+    transition: 0.5s;
+    background-color:#3b3a3a ;
+    transform: scale(1.1);
+}
+
+table{
+    background-color: #b1b0b0;
+    margin: 2rem auto;
+    box-shadow: 5px 10px 5px #3b3a3a;
+    width: 940px;
+}
+
+
+th,td{
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
 }
